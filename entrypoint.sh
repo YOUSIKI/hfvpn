@@ -6,6 +6,7 @@ sed "s/^Port .*$/Port 8888/" -i /etc/tinyproxy.conf
 export OPENCONNECT_URL="https://vpn.yinghuo.high-flyer.cn:4433"
 export OPENCONNECT_USER="shiboxin"
 export OPENCONNECT_PASSWORD="EDZ0sU70wAV8"
+export OPENCONNECT_OPTIONS="--no-dtls"
 
 run () {
   # Start openconnect
